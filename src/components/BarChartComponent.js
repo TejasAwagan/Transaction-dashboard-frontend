@@ -38,7 +38,7 @@ const BarChartComponent = ({ selectedMonth }) => {
     <div style={{ margin: '20px', padding: '20px', backgroundColor: '#ffffff', borderRadius: '8px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)' }}>
       <h2 style={{ textAlign: 'center', color: '#333', marginBottom: '20px' }}>Bar Chart</h2>
       {loading ? (
-        <p style={{ textAlign: 'center', color: '#888' }}><Loader type="spinner-circle" bgColor='red ' color='red' title={"Loading.."} size={80} /></p>
+        <p style={{ textAlign: 'center', color: '#888' }}><Loader type="spinner-circle" bgColor='black' color='black' title={"Loading.."} size={80} /></p>
       ) : data.length > 0 ? (
         <BarChart
           width={700}
