@@ -15,9 +15,9 @@ const PieChartComponent = ({ selectedMonth }) => {
         params: { month: selectedMonth },
       });
 
-      // Transform data if needed
+
       const transformedData = response.data.map((item) => ({
-        name: item._id, // Rename _id to name for clarity
+        name: item._id, 
         count: item.count,
       }));
       setData(transformedData);

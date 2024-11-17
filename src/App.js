@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TransactionsTable from "./components/TransactionsTable";
 import Statistics from "./components/Statistics";
 import BarChartComponent from "./components/BarChartComponent";
-import PieChartComponent from "./components/PieChartComponent";
+// import PieChartComponent from "./components/PieChartComponent";
 import "./App.css";
 const App = () => {
   const [selectedMonth, setSelectedMonth] = useState("March");
